@@ -7,4 +7,4 @@ A\* also implemented to compare.
 
 LICENSE
 =======
-BSD-3
+MIT
