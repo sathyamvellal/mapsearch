@@ -9,6 +9,6 @@ set(sources_util
 set(sources_test-hash
         ../test/test-hash.cpp)
 
- add_executable(test-hash ${sources_test-hash} ${sources_util})
+add_executable(test-hash ${sources_test-hash} ${sources_util})
 
- install(TARGETS test-hash DESTINATION ${PROJECT_SOURCE_DIR}/bin)
+install(TARGETS test-hash DESTINATION ${PROJECT_SOURCE_DIR}/bin)
