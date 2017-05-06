@@ -5,7 +5,10 @@
 #ifndef IMSCTESTPROJECT_UTIL_H
 #define IMSCTESTPROJECT_UTIL_H
 
+#include <functional>
+
 extern std::hash<std::string> nhash;
+extern double EARTH_RADIUS;
 
 double toRadians(double inDegrees);
 double toDegrees(double inRadians);

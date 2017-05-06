@@ -7,6 +7,7 @@
 #include "../include/util.h"
 
 std::hash<std::string> nhash; // Network::Hash
+double EARTH_RADIUS(3959.0);
 
 double toRadians(double inDegrees) {
     return inDegrees * (M_PI / 180.0);
