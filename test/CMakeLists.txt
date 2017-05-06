@@ -3,9 +3,12 @@ cmake_minimum_required(VERSION 3.6)
 set(CMAKE_CXX_STANDARD 11)
 
 # set source files
-set(required_sources
+set(sources_util
         ../src/util.cpp)
 
-# add_executable(partitiontest ${partitiontest_sources} ${required_sources})
+set(sources_test-hash
+        ../test/test-hash.cpp)
 
-# install(TARGETS partitiontest DESTINATION ${PROJECT_SOURCE_DIR}/bin)
+ add_executable(test-hash ${sources_test-hash} ${sources_util})
+
+ install(TARGETS test-hash DESTINATION ${PROJECT_SOURCE_DIR}/bin)
